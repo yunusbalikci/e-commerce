@@ -3,6 +3,7 @@ import React, { useState , useEffect} from "react"
 import Header from '../Components/Header'
 import Section from '../Components/Section'
 import Categories from '../Components/Categories'
+import Cards from '../Components/Cards'
 
 export default function Home(){
     
@@ -13,7 +14,10 @@ export default function Home(){
             <Header></Header>
             <Section></Section>
             <Categories></Categories>
-
+            <div className='w-full h-28 bg-orange-400 mb-5'>
+              <h1 className='text-center text-5xl py-6 text-white font-bold'>EN ÇOK FAVORİLENENLER</h1>
+            </div>
+            <Cards></Cards>
             
         </div>
       )

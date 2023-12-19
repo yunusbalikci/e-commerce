@@ -7,9 +7,6 @@ import axios from 'axios'
 
 export default function Section(){
 
-    
-
-
     const slides = [
         {
           url: 'https://t3.ftcdn.net/jpg/04/65/46/52/360_F_465465254_1pN9MGrA831idD6zIBL7q8rnZZpUCQTy.jpg',
@@ -66,7 +63,6 @@ export default function Section(){
             </div>
           ))}
         </div>
-        
         </div>
         
     

@@ -5,6 +5,8 @@ import { RxDotFilled } from 'react-icons/rx';
 import { useState,useNavigate,useEffect } from "react";
 import axios from 'axios'
 
+
+
 export default function Products(){
     const [allData,setAllData] = useState([])
     const [loading,setLoading] = useState(true)
@@ -17,6 +19,8 @@ export default function Products(){
         }
        getData()
     },[])
+
+    console.log(allData);
 
     return(
         <div>
