@@ -15,7 +15,7 @@ export default function Home(){
             <Section></Section>
             <Categories></Categories>
             <div className='w-full h-28 bg-orange-400 mb-5'>
-              <h1 className='text-center text-5xl py-6 text-white font-bold'>EN ÇOK FAVORİLENENLER</h1>
+              <h1 className='text-center text-5xl py-6 text-white font-bold uppercase font-open pt-6'>The Best Products</h1>
             </div>
             <Cards></Cards>
             
